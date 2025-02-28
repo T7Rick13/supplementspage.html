@@ -115,6 +115,13 @@
                     width: 100%;
                 }
 
+                /* 2/27/2025 margin adjust, semantic error */
+                .div05 {
+                    height: 500px;
+                    width: 100%;
+                    margin-top: -100px;
+                }
+
                 .div1 {
                     background-color: #fdf5e6;
                     height: 400px;
@@ -128,6 +135,25 @@
                     width: 80%;
                     margin-left: 10%;
                     margin-top: 100px;
+                }
+
+                /* Adjust Dimensions after layout */
+                .gridcontainer {
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                    background-color: #09FE45;
+                    padding: 0px;
+                    height: 1000px;
+                    width: 100%;
+                }
+
+                /* 2/27/2025 align grid, format grid */
+                .grid-item {
+                    background-color: #fdf5e6;
+                    border: 1px solid #09FE45;
+                    padding: 20px;
+                    font-size: 20px;
+                    Text-align: center;
                 }
 
                 .div3 {
@@ -197,8 +223,11 @@
 
         <body>
             <h1>NutriVibe</h1>
-            <h2><img src="https://media.istockphoto.com/id/1269749460/photo/pills-and-tablets-with-coins-on-the-table-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=GsxFoMQG0-IHUOj2Y9Jr3MrdQY_ClKWiqdnk15h2TtM="
-                    alt="not availabe" height="500" width="100%"></h2>
+            <h2>
+                <div class="div0.5"><img
+                        src="https://media.istockphoto.com/id/1269749460/photo/pills-and-tablets-with-coins-on-the-table-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=GsxFoMQG0-IHUOj2Y9Jr3MrdQY_ClKWiqdnk15h2TtM="
+                        alt="not availabe" height="500" width="100%"></div>
+            </h2>
             <div class="topnav">
                 <div class="topnav">
                     <span style="margin-top:25px; float:left;">Nutrivibe</span>
@@ -218,37 +247,70 @@
 
             <div class="div1"><img
                     src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="group photo" width="100%" height="500" margin-bottom="100">
+                    alt="group photo" width="100%" height="500" margin-top="-100px">
 
             </div>
             <div class="div2">
+                <div class="gridcontainer">
+                    <div class="grid-item">Kimberley Gomez<br>
+                        <img src="https://images.pexels.com/photos/13192539/pexels-photo-13192539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="shirt" height="200" width="200"><br>Up In Smoke Tour 2000<br>
+                        Vintage T<br>Size L<br>
+                        $50
+                    </div>
+                    <div class="grid-item">Iona May<br>
+                        <img src="https://images.pexels.com/photos/7615574/pexels-photo-7615574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="jeans" height="200" width="200">
+                        <br>559 Levi Vintage Mens<br>
+                        Size 33×33<br>
+                        $55
+                    </div>
+                    <div class="grid-item">Thomas Bullock<br><img
+                            src="https://images.pexels.com/photos/7883506/pexels-photo-7883506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="shoes" height="200" width="200"><br>
+                        Ken Griffey Jr. AirMax 1's
+                        <br>Size 10M
+                        <br>$225
+                    </div>
+                    <div class="grid-item">Iona May<br><img
+                            src="https://images.pexels.com/photos/16513595/pexels-photo-16513595/free-photo-of-a-bottle-with-a-protein-shake-standing-on-a-machine-at-the-gym.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="shirt" height="200" width="200"><br>Mike Tyson vs George Foreman<br>
+                        Vintage T<br>
+                        Size L $50
+                    </div>
+                    <div class="grid-item">Thomas Bullock<br><img
+                            src="https://images.pexels.com/photos/28988963/pexels-photo-28988963/free-photo-of-collagen-and-vitamin-c-supplement-jars-on-neutral-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="hat" height="200" width="400"><br> Vintage Corduroy Texas Rangers Golfer<br>
+                        Snapback<br>
+                        $45
+                    </div>
 
-            </div>
+                </div>
 
-            <div class="div3">
+                <div class="div3">
 
-            </div>
-            <div class="div4">
+                </div>
+                <div class="div4">
 
-            </div>
+                </div>
 
-            <div class="div5">
+                <div class="div5">
 
-            </div>
-            <div class="div6">
+                </div>
+                <div class="div6">
 
-            </div>
+                </div>
 
-            <div class="div7">
+                <div class="div7">
 
-            </div>
-            <div class="div8">
+                </div>
+                <div class="div8">
 
-            </div>
+                </div>
 
-            <div class="div9">
+                <div class="div9">
 
-            </div>
+                </div>
 
         </body>
 
